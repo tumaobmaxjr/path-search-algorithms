@@ -3,6 +3,7 @@ from tkinter import simpledialog
 from queue import Queue
 import heapq
 import math
+import tkinter.messagebox
 
 class Node:
     def __init__(self, label, x, y, color='lightblue'):
@@ -20,7 +21,7 @@ class Connection:
 class GraphEditor:
     def __init__(self, master):
         self.master = master
-        self.master.title("Graph Node Customizer")
+        self.master.title("Path-Search Algorithms Visualizer")
 
         self.graph = []
         self.connections = []
