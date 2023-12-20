@@ -1,4 +1,5 @@
-# Graph Editor with Algorithms Documentation
+# CSci 144 - Intelligent Systems | Coursework 4
+## GUI Application Simulates All Path-Search Algorithms
 
 ## Introduction
 
